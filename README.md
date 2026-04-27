@@ -5,13 +5,13 @@
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=flat&logo=streamlit)
 ![Optuna](https://img.shields.io/badge/Optuna-50%20Trials-purple?style=flat)
 ![Status](https://img.shields.io/badge/Status-Live-brightgreen?style=flat)
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](YOUR_STREAMLIT_URL)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://office-energy-forecasting-dashboard-byb9cixihrwm3c779d3hpv.streamlit.app/)
 
 > Predict office energy consumption and calculate real-time CO₂ savings —  
 > built for CleanTech and smart building applications.
 
 ## 🌐 Live Demo
-👉 **[Click here to try the app](YOUR_STREAMLIT_URL)**
+👉 **[https://office-energy-forecasting-dashboard-byb9cixihrwm3c779d3hpv.streamlit.app/)**
 
 ---
 
@@ -125,7 +125,7 @@ Raw Data → Feature Engineering → Time-Based Train/Test Split (80/20)
 
 ## 🚀 Try It
 
-**🌐 Live App:** [YOUR_STREAMLIT_URL](YOUR_STREAMLIT_URL)
+**🌐 Live App:** [https://office-energy-forecasting-dashboard-byb9cixihrwm3c779d3hpv.streamlit.app/]
 
 Or run locally:
 ```bash
