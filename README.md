@@ -128,7 +128,6 @@ git clone https://github.com/gauravbhatia-bit/office-energy-forecasting-dashboar
 cd office-energy-forecasting-dashboard
 pip install -r requirements.txt
 streamlit run app.py
-```
 
 ---
 
