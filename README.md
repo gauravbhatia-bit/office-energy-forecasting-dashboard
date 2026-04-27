@@ -83,3 +83,81 @@ and time-of-day (`hour`) are secondary but meaningful signals.
 
 ## 🤖 Model Pipeline
 
+### Hyperparameters Tuned via Optuna
+
+| Parameter | Search Range |
+|---|---|
+| `n_estimators` | 100 – 400 |
+| `max_depth` | 3 – 10 |
+| `learning_rate` | 0.01 – 0.3 |
+| `subsample` | 0.6 – 1.0 |
+| `colsample_bytree` | 0.6 – 1.0 |
+
+> ⚠️ Note: Time-series data requires a **sequential train/test split**  
+> (no shuffling) to prevent data leakage.
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool | Purpose |
+|---|---|
+| `Python` | Core language |
+| `XGBoost` | Primary ML model |
+| `Optuna` | Hyperparameter optimisation |
+| `SHAP` | Feature explainability |
+| `Scikit-learn` | Evaluation metrics |
+| `Streamlit` | Interactive web dashboard |
+| `Pandas / NumPy` | Data manipulation |
+| `Matplotlib / Seaborn` | Visualisation |
+
+---
+
+## 🚀 Run Locally
+
+```bash
+git clone https://github.com/gauravbhatia-bit/office-energy-forecasting-dashboard.git
+cd office-energy-forecasting-dashboard
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+---
+
+## 📁 Project Structure
+
+---
+
+## 💡 Key Insights
+
+- **Short-term memory dominates** — the last 10 minutes of consumption 
+  (`lag_1`) is by far the strongest predictor
+- **Time of day matters** — `hour` is the 5th most important feature, 
+  confirming office usage patterns are highly time-dependent
+- **Weather has moderate impact** — `T_out` and `RH_out` influence 
+  consumption but are secondary to recent usage history
+- **Weekends show significantly lower** consumption — `is_weekend` 
+  captures this behavioural pattern
+
+---
+
+## 🌱 Why I Built This
+
+Energy waste in offices is largely invisible — no alerts, no forecasts, 
+no actionable insights. This project shows how ML can make that waste 
+visible, quantifiable, and actionable.
+
+As someone transitioning from civil engineering into data science, 
+I built this to contribute to the energy transition using skills 
+that bridge both worlds.
+
+---
+
+## 👤 Author
+
+**Gaurav Bhatia**  
+MSc Data Science, AI & Digital Business — GISMA University, Berlin  
+📧 gauravbhatia.gb6@gmail.com  
+🔗 [LinkedIn](https://linkedin.com/in/your-profile) | 
+[GitHub](https://github.com/gauravbhatia-bit)
+
