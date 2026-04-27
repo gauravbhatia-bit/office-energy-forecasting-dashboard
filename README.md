@@ -83,6 +83,14 @@ and time-of-day (`hour`) are secondary but meaningful signals.
 
 ## 🤖 Model Pipeline
 
+​```
+Raw Data → Feature Engineering → Time-Based Train/Test Split (80/20)
+        → Optuna Hyperparameter Tuning (50 trials)
+        → XGBoost (Best Parameters)
+        → Evaluation (MAE / RMSE / MAPE)
+        → Streamlit Deployment
+​```
+
 ### Hyperparameters Tuned via Optuna
 
 | Parameter | Search Range |
@@ -126,6 +134,19 @@ streamlit run app.py
 
 ## 📁 Project Structure
 
+
+​```
+📁 office-energy-forecasting-dashboard/
+├── app.py
+├── energy_model.pkl
+├── requirements.txt
+├── notebooks/
+│   └── office_energy_forecasting.ipynb
+└── screenshots/
+    ├── model_metrics.png
+    ├── actual_vs_predicted.png
+    └── shap_feature_importance.png
+​```
 ---
 
 ## 💡 Key Insights
@@ -158,6 +179,6 @@ that bridge both worlds.
 **Gaurav Bhatia**  
 MSc Data Science, AI & Digital Business — GISMA University, Berlin  
 📧 gauravbhatia.gb6@gmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile) | 
+🔗 [LinkedIn](https://www.linkedin.com/in/gaurav-bhatia-5a5a83184/) | 
 [GitHub](https://github.com/gauravbhatia-bit)
 
