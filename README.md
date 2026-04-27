@@ -11,7 +11,7 @@
 > built for CleanTech and smart building applications.
 
 ## 🌐 Live Demo
-👉 **[https://office-energy-forecasting-dashboard-byb9cixihrwm3c779d3hpv.streamlit.app/)**
+👉 **[Click here to try the app](https://office-energy-forecasting-dashboard-byb9cixihrwm3c779d3hpv.streamlit.app/)**
 
 ---
 
@@ -125,7 +125,7 @@ Raw Data → Feature Engineering → Time-Based Train/Test Split (80/20)
 
 ## 🚀 Try It
 
-**🌐 Live App:** [https://office-energy-forecasting-dashboard-byb9cixihrwm3c779d3hpv.streamlit.app/]
+**🌐 Live App:** [Click here](https://office-energy-forecasting-dashboard-byb9cixihrwm3c779d3hpv.streamlit.app/)
 
 Or run locally:
 ```bash
